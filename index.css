@@ -1,0 +1,54 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(26,176,208);
+background: radial-gradient(circle, rgba(26,176,208,1) 0%, rgba(16,128,152,1) 96%);
+}
+.mix{
+    display: flex;
+    justify-content: space-between;
+}
+.mains{
+    max-width: 400px;
+    margin:100px auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+.text-title{
+    margin-top: 10px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tabela{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.peso , .altura{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn{
+    width: 100%;
+    background: rgb(26,176,208);
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+}
+.resposta{
+    text-align: center;
+    margin-top: 20px;
+    background: rgb(10, 97, 237);
+    padding: 10px;
+    color: white;
+}
